@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: team-1-repo
+  name: team-2-repo
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
   links:
@@ -17,8 +17,7 @@ metadata:
     # github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
-    jenkins.io/job-full-name: Talent-AI_Builds/junorg/java-talentai-sampleservice-jdk11/
 spec:
   type: library
-  owner: group:default/team-1
+  owner: group:default/team-2
   lifecycle: experimental
